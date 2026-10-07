@@ -1,0 +1,20 @@
+Date: Wed, 07 Oct 2026 23:56:02 +0000
+Description: AveeCare command line tools
+Label: AveeCare
+Origin: AveeCare
+MD5Sum:
+ 4d2d7aa739ea88f575502a736dfcbc29              927 Packages
+ aa8b0990655abf140476dbcdb267dc29              612 Packages.gz
+ 57f33f477a16731f5e6603f276f20355              112 Release
+SHA1:
+ 91b744715cb6297d08650dbad777022826a160dd              927 Packages
+ 05df2f41d1b8f2e4b1cc86c572a50da878056d67              612 Packages.gz
+ ac71c90fb4ac19c887d77230c41c8c99213ec8e5              112 Release
+SHA256:
+ ab87e5153e41caadb8e48aadd8f82f96c963c50a05656dd270b2ce10b9b0c08c              927 Packages
+ 6a99a1d15f2d75c56b5a9a9731f3475a568148f741d5859306f2133c0e93c308              612 Packages.gz
+ 197dcfffdfa164c1aa10372ac597ab574d501f1f7ff07f0bd06642cd571bb31d              112 Release
+SHA512:
+ 47dff13809fde5d6d15c4a462beec9ecfee7c60eaae6b7fcf234cb355fa8f8aea21d4a3e99008949e31b9be52c33e79b8e054318700b88e946b4e7630f0c07eb              927 Packages
+ 71571622fa8814348ec2b8287b2988522de793a9909a9d28bdc81f01a6e77851438b07c0f1fe19a21138e1e2204ebc6b9cde29f71ef66965dca643c9f78f942b              612 Packages.gz
+ 038d3d61557f30a3e2babe73e9679fde2f194db1ea3032e9ad5e07a7d56d88e9cd8e7f440e2dbab72ed7fcbf58cd6d3cf48afa02c1de3eed9b725cdc9cd6493d              112 Release

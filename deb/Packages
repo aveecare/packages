@@ -1,0 +1,23 @@
+Package: aveecare-cli
+Architecture: all
+Version: 0.1.0-1
+Priority: optional
+Section: utils
+Maintainer: AveeCare <admin@aveecare.com>
+Installed-Size: 387
+Depends: nodejs (>= 18)
+Filename: ./aveecare-cli_0.1.0-1_all.deb
+Size: 30982
+MD5sum: b656e1e8ac4b739c318df01f7d1f3ad3
+SHA1: 5d1457936e0776d1c0814c2c0f2b38fbdc7e17af
+SHA256: 68efd38ef4b8dd777434260aad23b470bc16f077949dd48aa7475feb232ecf22
+SHA512: b8d4f4c17c9ee8b92a7fc5b50c8794f934a7d26c5b06c52060449bbbfb91b9b9de326055ca59208a19835860a4727f2c71b86f74caff7a6444c09382737cb33d
+Homepage: https://www.aveecare.com/docs/api
+Description: command line tool for the AveeCare home care API
+ The official command line tool for the AveeCare API. List, create and update
+ a home care agency's patients, visits, caregivers, invoices and more from the
+ terminal, cron jobs and shell scripts. Output is JSON, so it pipes straight
+ into jq.
+ .
+ This package installs the aveecare command.
+

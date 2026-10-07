@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>AveeCare packages</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:46rem;margin:2rem auto;padding:0 1rem}pre{background:#f4f4f4;padding:1rem;overflow-x:auto}</style>
+<h1>AveeCare packages</h1>
+<p>Packages for the <a href="https://github.com/aveecare/aveecare-cli">AveeCare command line tool</a>.
+They need Node.js 18 or newer, which the package manager installs from your distribution.</p>
+<h2>Debian and Ubuntu</h2>
+<p>Debian 12 or newer, Ubuntu 24.04 or newer.</p>
+<pre>sudo install -d -m 0755 /etc/apt/keyrings
+curl -fsSL https://aveecare.github.io/packages/aveecare.asc | sudo tee /etc/apt/keyrings/aveecare.asc &gt;/dev/null
+echo "deb [signed-by=/etc/apt/keyrings/aveecare.asc] https://aveecare.github.io/packages/deb ./" | sudo tee /etc/apt/sources.list.d/aveecare.list
+sudo apt update &amp;&amp; sudo apt install aveecare-cli</pre>
+<h2>Fedora, RHEL and compatible</h2>
+<p>On RHEL 9 and compatible, first run <code>sudo dnf module enable nodejs:20</code>.</p>
+<pre>sudo curl -fsSL -o /etc/yum.repos.d/aveecare.repo https://aveecare.github.io/packages/aveecare.repo
+sudo dnf install aveecare-cli</pre>
+<h2>openSUSE</h2>
+<pre>sudo zypper addrepo https://aveecare.github.io/packages/aveecare.repo
+sudo zypper install aveecare-cli</pre>
+<p>Signing key: <a href="aveecare.asc">aveecare.asc</a>
+(fingerprint <code>A49B03A1042E74841996C39E0541C8726069F11E</code>).</p>
+</html>
